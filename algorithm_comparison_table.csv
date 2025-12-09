@@ -1,0 +1,16 @@
+Aspect,Naive Bayes,KNN
+Algorithm Type,Probabilistic,Instance-based
+Training Time,Very Fast (O(nd)),None (Lazy)
+Prediction Time,Very Fast (O(d)),Slow (O(nd))
+Memory Usage,Low,High
+Assumptions,Feature Independence,None
+Decision Boundary,Linear (probabilistic),Non-linear (flexible)
+Feature Scaling,Not Required,Required
+Handles Non-linearity,Limited,Excellent
+Interpretability,High,Moderate
+Handles Missing Data,Good,Poor
+High Dimensions,Excellent,Poor (curse)
+Small Dataset,Excellent,Good
+Large Dataset,Good,Poor
+Overfitting Risk,Low,Moderate
+Hyperparameters,Minimal (smoothing),"k, distance metric"
